@@ -16,9 +16,11 @@
 		85B4CD342460273C0074F659 /* SwiftUI_TemplatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4CD332460273C0074F659 /* SwiftUI_TemplatesTests.swift */; };
 		85B4CD3F2460273C0074F659 /* SwiftUI_TemplatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4CD3E2460273C0074F659 /* SwiftUI_TemplatesUITests.swift */; };
 		85B4CD4D2460283C0074F659 /* ListTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4CD4C2460283C0074F659 /* ListTemplate.swift */; };
-		85B4CD50246028950074F659 /* ListModel+Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4CD4F246028950074F659 /* ListModel+Store.swift */; };
+		85B4CD50246028950074F659 /* ListModel+DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4CD4F246028950074F659 /* ListModel+DataStore.swift */; };
 		85B4CD52246029F60074F659 /* ListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4CD51246029F60074F659 /* ListDetail.swift */; };
 		85B4CD9F246055340074F659 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4CD9E246055340074F659 /* RingView.swift */; };
+		85E4E49D2462522400B03979 /* PlacesLived.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E4E49C2462522400B03979 /* PlacesLived.swift */; };
+		85E4E49F2462526400B03979 /* PlaceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E4E49E2462526400B03979 /* PlaceDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +56,11 @@
 		85B4CD3E2460273C0074F659 /* SwiftUI_TemplatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TemplatesUITests.swift; sourceTree = "<group>"; };
 		85B4CD402460273C0074F659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85B4CD4C2460283C0074F659 /* ListTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTemplate.swift; sourceTree = "<group>"; };
-		85B4CD4F246028950074F659 /* ListModel+Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListModel+Store.swift"; sourceTree = "<group>"; };
+		85B4CD4F246028950074F659 /* ListModel+DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListModel+DataStore.swift"; sourceTree = "<group>"; };
 		85B4CD51246029F60074F659 /* ListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetail.swift; sourceTree = "<group>"; };
 		85B4CD9E246055340074F659 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		85E4E49C2462522400B03979 /* PlacesLived.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesLived.swift; sourceTree = "<group>"; };
+		85E4E49E2462526400B03979 /* PlaceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		85B4CD1B2460273B0074F659 /* SwiftUI_Templates */ = {
 			isa = PBXGroup;
 			children = (
+				85E4E49B2462520300B03979 /* ListWithInteractiveCell */,
 				85B4CD9D246055230074F659 /* RingView */,
 				85B4CD4E2460287E0074F659 /* List */,
 				85B4CD1C2460273B0074F659 /* AppDelegate.swift */,
@@ -150,7 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				85B4CD4C2460283C0074F659 /* ListTemplate.swift */,
-				85B4CD4F246028950074F659 /* ListModel+Store.swift */,
+				85B4CD4F246028950074F659 /* ListModel+DataStore.swift */,
 				85B4CD51246029F60074F659 /* ListDetail.swift */,
 			);
 			path = List;
@@ -162,6 +167,15 @@
 				85B4CD9E246055340074F659 /* RingView.swift */,
 			);
 			path = RingView;
+			sourceTree = "<group>";
+		};
+		85E4E49B2462520300B03979 /* ListWithInteractiveCell */ = {
+			isa = PBXGroup;
+			children = (
+				85E4E49C2462522400B03979 /* PlacesLived.swift */,
+				85E4E49E2462526400B03979 /* PlaceDetail.swift */,
+			);
+			path = ListWithInteractiveCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,13 +309,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E4E49D2462522400B03979 /* PlacesLived.swift in Sources */,
 				85B4CD1D2460273B0074F659 /* AppDelegate.swift in Sources */,
 				85B4CD4D2460283C0074F659 /* ListTemplate.swift in Sources */,
+				85E4E49F2462526400B03979 /* PlaceDetail.swift in Sources */,
 				85B4CD1F2460273B0074F659 /* SceneDelegate.swift in Sources */,
 				85B4CD212460273B0074F659 /* ContentView.swift in Sources */,
 				85B4CD9F246055340074F659 /* RingView.swift in Sources */,
 				85B4CD52246029F60074F659 /* ListDetail.swift in Sources */,
-				85B4CD50246028950074F659 /* ListModel+Store.swift in Sources */,
+				85B4CD50246028950074F659 /* ListModel+DataStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
