@@ -11,7 +11,7 @@ import SwiftUI
 let screen = UIScreen.main.bounds
 
 struct PlaceList: View {
-    @State var courses = courseData
+    @State var places = placeData
     @State var active = false
     @State var activeIndex = -1
     @State var activeView = CGSize.zero
@@ -39,23 +39,23 @@ struct PlaceList: View {
                         .padding(.top, 30)
                         .blur(radius: active ? 20 : 0)
                     
-                    ForEach(courses.indices, id: \.self) { index in
+                    ForEach(places.indices, id: \.self) { index in
                         GeometryReader { geometry in
-                            PlaceView(show: self.$courses[index].show,
-                                       course: self.courses[index],
+                            PlaceView(show: self.$places[index].show,
+                                       course: self.places[index],
                                        active: self.$active,
                                        index: index,
                                        activeIndex: self.$activeIndex,
                                        activeView: self.$activeView
                             )
-                                .offset(y: self.courses[index].show ? -geometry.frame(in: .global).minY : 0)
+                                .offset(y: self.places[index].show ? -geometry.frame(in: .global).minY : 0)
                                 .opacity(self.activeIndex != index && self.active ? 0 : 1)
                                 .scaleEffect(self.activeIndex != index && self.active ? 0.5 : 1)
                                 .offset(x: self.activeIndex != index && self.active ? screen.width : 0)
                         }
                         .frame(height: 280)
-                        .frame(maxWidth: self.courses[index].show ? .infinity : screen.width - 60)
-                        .zIndex(self.courses[index].show ? 1: 0)
+                        .frame(maxWidth: self.places[index].show ? .infinity : screen.width - 60)
+                        .zIndex(self.places[index].show ? 1: 0)
                     }
                 }
                 .frame(width: screen.width)
@@ -82,23 +82,6 @@ struct PlaceView: View {
     
     var body: some View {
         ZStack(alignment: .top) {
-//            VStack(alignment: .leading, spacing: 30.0) {
-//                Text("")
-//
-//                Text("")
-//
-//                Text("")
-//
-//                Text("")
-//            }
-//            .padding(30)
-//            .frame(maxWidth: show ? .infinity : screen.width - 60, maxHeight: show ? .infinity : 280, alignment: .top)
-//            .offset(y: show ? 460 : 0)
-//            .background(Color.white)
-//            .clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous))
-//            .shadow(color: Color.black.opacity(0.2), radius: 20, x: 0, y: 20)
-//            .opacity(show ? 1 : 0)
-            
             VStack {
                 HStack(alignment: .top) {
                     VStack(alignment: .leading, spacing: 8.0) {
@@ -213,7 +196,7 @@ struct Course: Identifiable {
 
 let unicodeHaert = "\u{2661}"
 
-var courseData = [
+var placeData = [
     Course(title: "Boston", subtitle: "It's Bean Town", image: #imageLiteral(resourceName: "Background1"), logo: #imageLiteral(resourceName: "Logo1"), color: #colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1), show: false),
     Course(title: "San Francisco", subtitle: "Left my \(unicodeHaert) in San Francisco", image: #imageLiteral(resourceName: "Card3"), logo: #imageLiteral(resourceName: "Logo1"), color: #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1), show: false),
     Course(title: "Tokyo", subtitle: "Konnichiwa bitches!", image: #imageLiteral(resourceName: "Card4"), logo: #imageLiteral(resourceName: "Logo1"), color: #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1), show: false)

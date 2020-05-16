@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		858E9E7124701D9700945E3C /* MapSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858E9E7024701D9700945E3C /* MapSearchView.swift */; };
+		858E9E732470249400945E3C /* MapSearchingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858E9E722470249400945E3C /* MapSearchingViewModel.swift */; };
+		858E9E75247025B100945E3C /* MapViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858E9E74247025B100945E3C /* MapViewContainer.swift */; };
 		85B4CD1D2460273B0074F659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4CD1C2460273B0074F659 /* AppDelegate.swift */; };
 		85B4CD1F2460273B0074F659 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4CD1E2460273B0074F659 /* SceneDelegate.swift */; };
 		85B4CD212460273B0074F659 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4CD202460273B0074F659 /* ContentView.swift */; };
@@ -41,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		858E9E7024701D9700945E3C /* MapSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchView.swift; sourceTree = "<group>"; };
+		858E9E722470249400945E3C /* MapSearchingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchingViewModel.swift; sourceTree = "<group>"; };
+		858E9E74247025B100945E3C /* MapViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewContainer.swift; sourceTree = "<group>"; };
 		85B4CD192460273B0074F659 /* SwiftUI_Templates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Templates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B4CD1C2460273B0074F659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85B4CD1E2460273B0074F659 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +94,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		858E9E6F24701D5300945E3C /* MapSearchView */ = {
+			isa = PBXGroup;
+			children = (
+				858E9E7024701D9700945E3C /* MapSearchView.swift */,
+				858E9E722470249400945E3C /* MapSearchingViewModel.swift */,
+				858E9E74247025B100945E3C /* MapViewContainer.swift */,
+			);
+			path = MapSearchView;
+			sourceTree = "<group>";
+		};
 		85B4CD102460273B0074F659 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +127,7 @@
 		85B4CD1B2460273B0074F659 /* SwiftUI_Templates */ = {
 			isa = PBXGroup;
 			children = (
+				858E9E6F24701D5300945E3C /* MapSearchView */,
 				85E4E49B2462520300B03979 /* ListWithInteractiveCell */,
 				85B4CD9D246055230074F659 /* RingView */,
 				85B4CD4E2460287E0074F659 /* List */,
@@ -314,10 +331,13 @@
 				85B4CD4D2460283C0074F659 /* ListTemplate.swift in Sources */,
 				85E4E49F2462526400B03979 /* PlaceDetail.swift in Sources */,
 				85B4CD1F2460273B0074F659 /* SceneDelegate.swift in Sources */,
+				858E9E75247025B100945E3C /* MapViewContainer.swift in Sources */,
 				85B4CD212460273B0074F659 /* ContentView.swift in Sources */,
 				85B4CD9F246055340074F659 /* RingView.swift in Sources */,
 				85B4CD52246029F60074F659 /* ListDetail.swift in Sources */,
+				858E9E732470249400945E3C /* MapSearchingViewModel.swift in Sources */,
 				85B4CD50246028950074F659 /* ListModel+DataStore.swift in Sources */,
+				858E9E7124701D9700945E3C /* MapSearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
