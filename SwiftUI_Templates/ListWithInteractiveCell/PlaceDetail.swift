@@ -15,7 +15,7 @@ struct PlaceDetail: View {
     @Binding var active: Bool
     @Binding var activeIndex: Int
     
-    
+    // MARK: PLACEDETAIL BODY
     var body: some View {
         ScrollView {
             VStack {
@@ -61,21 +61,17 @@ struct PlaceDetail: View {
                     .shadow(color: Color(course.color).opacity(0.3), radius: 20, x: 0, y: 20)
                 
                 VStack(alignment: .leading, spacing: 30.0) {
-  
                     Text(placeBioDetail().0)
-                    
                     Text(placeBioDetail().1)
                         .bold()
                         .font(.system(size: 20))
                         .underline()
-                    
                     Text(placeBioDetail().2)
-                    .lineLimit(nil)
-                    .fixedSize(horizontal: false, vertical: true)
-                    
+                        .lineLimit(nil)
+                        .fixedSize(horizontal: false, vertical: true)
                     Text(placeBioDetail().3)
-                    .lineLimit(nil)
-                    .fixedSize(horizontal: false, vertical: true)
+                        .lineLimit(nil)
+                        .fixedSize(horizontal: false, vertical: true)
                 }
                 .padding(30)
             }
@@ -83,6 +79,7 @@ struct PlaceDetail: View {
         .edgesIgnoringSafeArea(.all)
     }
     
+    // MARK: PLACE DETAIL METHODS
     func placeBioDetail() -> (String, String, String, String) {
         var title:String
         var hightlightTitle:String
@@ -121,6 +118,6 @@ struct PlaceDetail: View {
 
 struct CourseDetail_Previews: PreviewProvider {
     static var previews: some View {
-        PlaceDetail(course: courseData[0], show: .constant(true), active: .constant(true), activeIndex: .constant(-1))
+        PlaceDetail(course: placeData[0], show: .constant(true), active: .constant(true), activeIndex: .constant(-1))
     }
 }
