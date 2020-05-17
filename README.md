@@ -14,7 +14,7 @@ Templates created:
 <img src="SwiftUI_Templates/ReadMe_Images/ringView.png" width=200>
 
 # Interactive List
-<img src="SwiftUI_Templates/ReadMe_Images/PlacesLivedList.pn" width=200>
+<img src="SwiftUI_Templates/ReadMe_Images/PlacesLivedList.png" width=200>
 
 # Map Searching Locations
 <img src="SwiftUI_Templates/ReadMe_Images/mapkitUIKit.png" width=200>
