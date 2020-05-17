@@ -11,13 +11,13 @@ Templates created:
 <img src="SwiftUI_Templates/ReadMe_Images/listAndDetail.png" width=200>
 
 # Ring view
-![RingView](SwiftUI_Templates/ReadMe_Images/ringView.png)
+<img src="SwiftUI_Templates/ReadMe_Images/ringView.png" width=200>
 
 # Interactive List
-![Interactive List](SwiftUI_Templates/ReadMe_Images/PlacesLivedList.png)
+<img src="SwiftUI_Templates/ReadMe_Images/PlacesLivedList.pn" width=200>
 
 # Map Searching Locations
-![MapKit Implementation](SwiftUI_Templates/ReadMe_Images/mapkitUIKit.png)
+<img src="SwiftUI_Templates/ReadMe_Images/mapkitUIKit.png" width=200>
 
 # Map Show routes between two locations
-![MapKit Implementation](SwiftUI_Templates/ReadMe_Images/mapkitUIKit.png)
+<img src="SwiftUI_Templates/ReadMe_Images/mapkitUIKit.png" width=200>
