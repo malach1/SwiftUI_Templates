@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851EDF692470FF360058DB97 /* Screen Shot 2020-05-17 at 14.09.56.png in Resources */ = {isa = PBXBuildFile; fileRef = 851EDF682470FF360058DB97 /* Screen Shot 2020-05-17 at 14.09.56.png */; };
 		858E9E7124701D9700945E3C /* MapSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858E9E7024701D9700945E3C /* MapSearchView.swift */; };
 		858E9E732470249400945E3C /* MapSearchingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858E9E722470249400945E3C /* MapSearchingViewModel.swift */; };
 		858E9E75247025B100945E3C /* MapViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858E9E74247025B100945E3C /* MapViewContainer.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		851EDF682470FF360058DB97 /* Screen Shot 2020-05-17 at 14.09.56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-05-17 at 14.09.56.png"; sourceTree = "<group>"; };
 		858E9E7024701D9700945E3C /* MapSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchView.swift; sourceTree = "<group>"; };
 		858E9E722470249400945E3C /* MapSearchingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchingViewModel.swift; sourceTree = "<group>"; };
 		858E9E74247025B100945E3C /* MapViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewContainer.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		858E9E7F2470285F00945E3C /* ReadMe_Images */ = {
 			isa = PBXGroup;
 			children = (
+				851EDF682470FF360058DB97 /* Screen Shot 2020-05-17 at 14.09.56.png */,
 				858E9E812470287900945E3C /* listAndDetail.png */,
 				858E9E802470287900945E3C /* mapkitUIKit.png */,
 				858E9E822470287900945E3C /* PlacesLivedList.png */,
@@ -337,6 +340,7 @@
 				85B4CD292460273B0074F659 /* LaunchScreen.storyboard in Resources */,
 				85B4CD262460273B0074F659 /* Preview Assets.xcassets in Resources */,
 				858E9E872470287900945E3C /* ringView.png in Resources */,
+				851EDF692470FF360058DB97 /* Screen Shot 2020-05-17 at 14.09.56.png in Resources */,
 				858E9E852470287900945E3C /* listAndDetail.png in Resources */,
 				858E9E842470287900945E3C /* mapkitUIKit.png in Resources */,
 				85B4CD232460273B0074F659 /* Assets.xcassets in Resources */,
