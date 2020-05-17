@@ -8,7 +8,7 @@ Templates created:
 - SwiftUI implementation of MapKit from UIKit
 
 # List and Detail
-![List and Detail](SwiftUI_Templates/ReadMe_Images/listAndDetail.png | =100x200)
+<img src="SwiftUI_Templates/ReadMe_Images/listAndDetail.png" width=200>
 
 # Ring view
 ![RingView](SwiftUI_Templates/ReadMe_Images/ringView.png)
