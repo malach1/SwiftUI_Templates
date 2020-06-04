@@ -29,6 +29,7 @@ struct PlaceDetail: View {
                                 .foregroundColor(Color.white.opacity(0.7))
                         }
                         Spacer()
+                        
                         ZStack {
                             VStack {
                                 Image(systemName: "xmark")
