@@ -22,5 +22,11 @@ Templates created:
 # Map: routes between two locations
 <img src="SwiftUI_Templates/ReadMe/Images/routeBetweenTwo.png" width=100>
 
-# Button Animation
-<img src="SwiftUI_Templates/ReadMe/Images/buttonAnimation.gif" width=300>
+# Button With Animation
+<img src="SwiftUI_Templates/ReadMe/Images/buttonWithAnimation.gif" width=100>
+
+# Button With Transition
+<img src="SwiftUI_Templates/ReadMe/Images/transitionButton.gif" width=100>
+
+# Pay button
+<img src="SwiftUI_Templates/ReadMe/Images/unlockButton.gif" width=100>
