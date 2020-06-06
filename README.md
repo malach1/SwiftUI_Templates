@@ -1,12 +1,6 @@
 # SwiftUI_Templates
 Just a repository to store SwiftUI templates.
 
-Templates created:
-- List -> Detail
-- Ring view
-- List with Interactive Cell
-- SwiftUI implementation of MapKit from UIKit
-
 # List -> Detail
 <img src="SwiftUI_Templates/ReadMe/Images/listAndDetail.png" width=100>
 
