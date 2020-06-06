@@ -23,7 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
 //        let contentView = ContentView()
 //        let contentView = PlaceList()
-        let contentView = DirectionsSearchView()
+        let contentView = CircleAnimatedButton()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

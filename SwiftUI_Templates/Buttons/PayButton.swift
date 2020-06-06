@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct PayButton: View {
+struct unlockButton: View {
     @GestureState var tap = false
     @State var press = false
     
@@ -69,7 +69,7 @@ struct PayButton: View {
     }
 }
 
-struct PayButton_Previews: PreviewProvider {
+struct unlockButton_Previews: PreviewProvider {
     static var previews: some View {
         PayButton()
     }

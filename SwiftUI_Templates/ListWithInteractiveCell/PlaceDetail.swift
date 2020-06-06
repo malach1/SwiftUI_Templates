@@ -28,6 +28,7 @@ struct PlaceDetail: View {
                             Text(course.subtitle)
                                 .foregroundColor(Color.white.opacity(0.7))
                         }
+                        
                         Spacer()
                         
                         ZStack {

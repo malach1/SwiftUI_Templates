@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct Buttons: View {
+struct AnimatedRectangleButton: View {
     @State var tap = false
     @State var press = false
     
@@ -74,8 +74,8 @@ struct Buttons: View {
     }
 }
 
-struct Buttons_Previews: PreviewProvider {
+struct AnimatedRectangleButton_Previews: PreviewProvider {
     static var previews: some View {
-        Buttons()
+        AnimatedRectangleButton()
     }
 }

@@ -8,9 +8,19 @@
 
 import SwiftUI
 
+//func haptic(type: UINotificationFeedbackGenerator.FeedbackType) {
+//    UINotificationFeedbackGenerator().notificationOccurred(type)
+//}
+//
+//func impact(style: UIImpactFeedbackGenerator.FeedbackStyle) {
+//    UIImpactFeedbackGenerator(style: style).impactOccurred()
+//}
+
 struct CircleAnimatedButton: View {
     var body: some View {
-        CircleButton()
+        VStack {
+            CircleButton()
+        }
     }
     
     struct CircleButton: View {
@@ -24,9 +34,9 @@ struct CircleAnimatedButton: View {
                     .offset(x: press ? -90 : 0, y: press ? -90 : 0)
                     .rotation3DEffect(Angle(degrees: press ? 20 : 0), axis: (x: 10, y: -10, z: 0))
                 Image(systemName: "moon")
-                    .font(.system(size: 44, weight: .light))
-                    .offset(x: press ? 0 : 90, y: press ? 0 : 90)
-                    .rotation3DEffect(Angle(degrees: press ? 0 : 20), axis: (x: -10, y: 10, z: 0))
+                .font(.system(size: 44, weight: .light))
+                .offset(x: press ? 0 : 90, y: press ? 0 : 90)
+                .rotation3DEffect(Angle(degrees: press ? 0 : 20), axis: (x: -10, y: 10, z: 0))
             }
             .frame(width: 100, height: 100)
             .background(
