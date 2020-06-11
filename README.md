@@ -10,6 +10,9 @@ Just a repository to store SwiftUI templates.
 # Interactive list
 <img src="SwiftUI_Templates/ReadMe/Images/PlacesLivedList.png" width=100>
 
+# Search Bar
+<img src="SwiftUI_Templates/ReadMe/Images/searchBar.png" width=100>
+
 # Map: searching locations
 <img src="SwiftUI_Templates/ReadMe/Images/mapkitUIKit.png" width=100>
 
