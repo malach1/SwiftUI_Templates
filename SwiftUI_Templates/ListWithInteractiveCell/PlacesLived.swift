@@ -163,8 +163,6 @@ struct PlaceView: View {
                 DragGesture().onChanged { value in
                     guard value.translation.height < 300  else { return }
                     guard value.translation.height > 0 else { return }
-                    
-//                    self.activeView = value.translation
                 }
                 .onEnded { value in
                     if self.activeView.height > 50 {

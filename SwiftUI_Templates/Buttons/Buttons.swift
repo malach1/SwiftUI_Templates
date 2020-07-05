@@ -43,7 +43,7 @@ struct RectangleButton: View {
     @State var press = false
     
     var body: some View {
-        Text("Button")
+        Text(press ? "Editing" : "Edit Profile")
             .font(.system(size: 20, weight: .semibold, design: .rounded))
             .frame(width: 200, height: 60)
             .background(

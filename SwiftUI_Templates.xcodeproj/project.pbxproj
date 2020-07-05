@@ -10,6 +10,7 @@
 		850705CD24890AB300852891 /* AnimatedRectangleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850705CC24890AB300852891 /* AnimatedRectangleButton.swift */; };
 		851EDF692470FF360058DB97 /* routeBetweenTwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 851EDF682470FF360058DB97 /* routeBetweenTwo.png */; };
 		8535DFD924732E81000B4E19 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8535DFD824732E81000B4E19 /* README.md */; };
+		855EDA8F24B0ABE000B3B80E /* SharingLove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855EDA8E24B0ABE000B3B80E /* SharingLove.swift */; };
 		858E9E7124701D9700945E3C /* MapSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858E9E7024701D9700945E3C /* MapSearchView.swift */; };
 		858E9E732470249400945E3C /* MapSearchingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858E9E722470249400945E3C /* MapSearchingViewModel.swift */; };
 		858E9E75247025B100945E3C /* MapViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858E9E74247025B100945E3C /* MapViewContainer.swift */; };
@@ -66,6 +67,7 @@
 		850705CC24890AB300852891 /* AnimatedRectangleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedRectangleButton.swift; sourceTree = "<group>"; };
 		851EDF682470FF360058DB97 /* routeBetweenTwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = routeBetweenTwo.png; sourceTree = "<group>"; };
 		8535DFD824732E81000B4E19 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		855EDA8E24B0ABE000B3B80E /* SharingLove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingLove.swift; sourceTree = "<group>"; };
 		858E9E7024701D9700945E3C /* MapSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchView.swift; sourceTree = "<group>"; };
 		858E9E722470249400945E3C /* MapSearchingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchingViewModel.swift; sourceTree = "<group>"; };
 		858E9E74247025B100945E3C /* MapViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewContainer.swift; sourceTree = "<group>"; };
@@ -160,6 +162,14 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		855EDA8D24B0AB9C00B3B80E /* SVG */ = {
+			isa = PBXGroup;
+			children = (
+				855EDA8E24B0ABE000B3B80E /* SharingLove.swift */,
+			);
+			path = SVG;
+			sourceTree = "<group>";
+		};
 		858E9E6F24701D5300945E3C /* MapSearchView */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +213,7 @@
 		85B4CD1B2460273B0074F659 /* SwiftUI_Templates */ = {
 			isa = PBXGroup;
 			children = (
+				855EDA8D24B0AB9C00B3B80E /* SVG */,
 				85D5034C24925CFE00845796 /* SearchBar */,
 				850705CB24890A9D00852891 /* Buttons */,
 				858E9E7F2470285F00945E3C /* ReadMe */,
@@ -442,6 +453,7 @@
 				85E4E49F2462526400B03979 /* PlaceDetail.swift in Sources */,
 				85B4CD1F2460273B0074F659 /* SceneDelegate.swift in Sources */,
 				85E7AB8E2489B67D00141610 /* CircleAnimatedButton.swift in Sources */,
+				855EDA8F24B0ABE000B3B80E /* SharingLove.swift in Sources */,
 				858E9E75247025B100945E3C /* MapViewContainer.swift in Sources */,
 				85E9FDD9248B11CC009905E9 /* PayButton.swift in Sources */,
 				85E9FDE1248B1A94009905E9 /* Buttons.swift in Sources */,
