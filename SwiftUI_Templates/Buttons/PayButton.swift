@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct unlockButton: View {
+struct fingerPayButton: View {
     @GestureState var tap = false
     @State var press = false
     
@@ -34,11 +34,11 @@ struct unlockButton: View {
         .background(
             ZStack {
                 LinearGradient(gradient: Gradient(colors: [Color(press ? #colorLiteral(red: 0.8980392157, green: 0.9333333333, blue: 1, alpha: 1) : #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)), Color(press ? #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1) : #colorLiteral(red: 0.8980392157, green: 0.9333333333, blue: 1, alpha: 1))]), startPoint: .topLeading, endPoint: .bottomTrailing)
-                
+
                 Circle()
                     .stroke(Color.clear, lineWidth: 10)
                     .shadow(color: Color(press ? #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1) : #colorLiteral(red: 0.7608050108, green: 0.8164883852, blue: 0.9259157777, alpha: 1)), radius: 3, x: -5, y: -5)
-                
+
                 Circle()
                     .stroke(Color.clear, lineWidth: 10)
                     .shadow(color: Color(press ? #colorLiteral(red: 0.7608050108, green: 0.8164883852, blue: 0.9259157777, alpha: 1) : #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)), radius: 3, x: 3, y: 3)
@@ -69,8 +69,8 @@ struct unlockButton: View {
     }
 }
 
-struct unlockButton_Previews: PreviewProvider {
+struct fingerPayButton_Previews: PreviewProvider {
     static var previews: some View {
-        PayButton()
+        fingerPayButton()
     }
 }

@@ -16,7 +16,7 @@ func impact(style: UIImpactFeedbackGenerator.FeedbackStyle) {
     UIImpactFeedbackGenerator(style: style).impactOccurred()
 }
 
-struct Buttons: View {
+struct ThreeButtons: View {
     var body: some View {
         VStack(spacing: 50) {
             RectangleButton()
@@ -32,9 +32,9 @@ struct Buttons: View {
     }
 }
 
-struct Buttons_Previews: PreviewProvider {
+struct ThreeButtons_Previews: PreviewProvider {
     static var previews: some View {
-        Buttons()
+        ThreeButtons()
     }
 }
 

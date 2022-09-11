@@ -23,7 +23,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
 //        let contentView = ContentView()
 //        let contentView = PlaceList()
-        let contentView = CircleAnimatedButton()
+//        let contentView = CircleAnimatedButton()
+        let contentView = SideMenuBar()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
