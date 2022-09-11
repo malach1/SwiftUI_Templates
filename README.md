@@ -1,5 +1,8 @@
 # SwiftUI_Templates
-Just a repository to store SwiftUI templates.  I get inspired by solutions found online, build it for personal learning, and place it hear from sharing.
+Just a repository to store SwiftUI templates.  
+I get inspiration from other apps and solutions found online, 
+build it for personal learning, 
+and place it hear as an archive.
 
 # Animated Side Menubar
 <img src="SwiftUI_Templates/ReadMe/Images/animatedSideMenu.gif" width=100>
