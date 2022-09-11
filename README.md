@@ -4,6 +4,9 @@ I get inspiration from other apps and solutions found online,
 build it for personal learning, 
 and place it hear as an archive.
 
+# Jordan sneaker viewer
+<img src="SwiftUI_Templates/ReadMe/Images/3DShoe.gif" width=100>
+
 # Animated Side Menubar
 <img src="SwiftUI_Templates/ReadMe/Images/animatedSideMenu.gif" width=100>
 
