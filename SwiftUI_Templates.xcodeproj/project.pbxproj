@@ -11,7 +11,7 @@
 		41AF826128CD84C700107B4D /* animatedSideMenu.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41AF826028CD84C700107B4D /* animatedSideMenu.gif */; };
 		41AF826428CD8FF200107B4D /* 3DShoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AF826328CD8FF200107B4D /* 3DShoe.swift */; };
 		41AF826628CD901500107B4D /* Nike_Air_Jordan.scn in Resources */ = {isa = PBXBuildFile; fileRef = 41AF826528CD901500107B4D /* Nike_Air_Jordan.scn */; };
-		41AF826828CD91C600107B4D /* CustomSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AF826728CD91C600107B4D /* CustomSceneView.swift */; };
+		41AF826828CD91C600107B4D /* CustomSneakerSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AF826728CD91C600107B4D /* CustomSneakerSceneView.swift */; };
 		41AF826A28CD972C00107B4D /* 3DShoe.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41AF826928CD972C00107B4D /* 3DShoe.gif */; };
 		850705CD24890AB300852891 /* AnimatedRectangleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850705CC24890AB300852891 /* AnimatedRectangleButton.swift */; };
 		851EDF692470FF360058DB97 /* routeBetweenTwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 851EDF682470FF360058DB97 /* routeBetweenTwo.png */; };
@@ -74,7 +74,7 @@
 		41AF826028CD84C700107B4D /* animatedSideMenu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animatedSideMenu.gif; sourceTree = "<group>"; };
 		41AF826328CD8FF200107B4D /* 3DShoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DShoe.swift; sourceTree = "<group>"; };
 		41AF826528CD901500107B4D /* Nike_Air_Jordan.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Nike_Air_Jordan.scn; sourceTree = "<group>"; };
-		41AF826728CD91C600107B4D /* CustomSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSceneView.swift; sourceTree = "<group>"; };
+		41AF826728CD91C600107B4D /* CustomSneakerSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSneakerSceneView.swift; sourceTree = "<group>"; };
 		41AF826928CD972C00107B4D /* 3DShoe.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3DShoe.gif; sourceTree = "<group>"; };
 		850705CC24890AB300852891 /* AnimatedRectangleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedRectangleButton.swift; sourceTree = "<group>"; };
 		851EDF682470FF360058DB97 /* routeBetweenTwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = routeBetweenTwo.png; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 			children = (
 				41AF826528CD901500107B4D /* Nike_Air_Jordan.scn */,
 				41AF826328CD8FF200107B4D /* 3DShoe.swift */,
-				41AF826728CD91C600107B4D /* CustomSceneView.swift */,
+				41AF826728CD91C600107B4D /* CustomSneakerSceneView.swift */,
 			);
 			path = 3DShoe;
 			sourceTree = "<group>";
@@ -486,7 +486,7 @@
 				41AF826428CD8FF200107B4D /* 3DShoe.swift in Sources */,
 				85E4E49D2462522400B03979 /* PlacesLived.swift in Sources */,
 				85D5035024925D5200845796 /* CustomSearchBar.swift in Sources */,
-				41AF826828CD91C600107B4D /* CustomSceneView.swift in Sources */,
+				41AF826828CD91C600107B4D /* CustomSneakerSceneView.swift in Sources */,
 				85B4CD1D2460273B0074F659 /* AppDelegate.swift in Sources */,
 				85B4CD4D2460283C0074F659 /* ListTemplate.swift in Sources */,
 				85E4E49F2462526400B03979 /* PlaceDetail.swift in Sources */,

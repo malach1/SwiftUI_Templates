@@ -17,21 +17,21 @@ struct ThreeDShoe: View {
     var body: some View {
         VStack{
             // MARK: 3D Preview
-            CustomSceneView(scene: $scene)
+            CustomSneakerSceneView(scene: $scene)
                 .frame(height: 350)
                 .padding(.top,-50)
                 .padding(.bottom,-15)
                 .zIndex(-10)
             
-            CustomSeeker()
+            CustomSneakerSeeker()
         }
         .padding()
     }
     
     // MARK: Custom Seeker
     @ViewBuilder
-    func CustomSeeker()->some View {
-        GeometryReader{_ in
+    func CustomSneakerSeeker()->some View {
+        GeometryReader {_ in
             Rectangle()
                 .trim(from: 0, to: 0.474)
                 .stroke(.linearGradient(colors: [
@@ -94,13 +94,13 @@ struct ThreeDShoe: View {
         let newAngle = Float((offset * .pi) / 180)
         
         // MARK: Now Rotate the New Child Node
-        if isVerticalLook{
+        if isVerticalLook {
             scene?.rootNode.childNode(withName: "Root", recursively: true)?.eulerAngles.x = newAngle
-        }else{
+        } else {
             scene?.rootNode.childNode(withName: "Root", recursively: true)?.eulerAngles.y = newAngle
         }
         
-        if animate{
+        if animate {
             SCNTransaction.commit()
         }
     }

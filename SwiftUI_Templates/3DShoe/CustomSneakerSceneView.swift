@@ -9,7 +9,7 @@
 import SwiftUI
 import SceneKit
 
-struct CustomSceneView: UIViewRepresentable {
+struct CustomSneakerSceneView: UIViewRepresentable {
     @Binding var scene: SCNScene?
 
     func makeUIView(context: Context) -> SCNView {
