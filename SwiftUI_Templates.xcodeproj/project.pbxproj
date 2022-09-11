@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		41AF825C28CCE70C00107B4D /* SideMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AF825B28CCE70C00107B4D /* SideMenuBar.swift */; };
+		41AF826128CD84C700107B4D /* animatedSideMenu.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41AF826028CD84C700107B4D /* animatedSideMenu.gif */; };
 		850705CD24890AB300852891 /* AnimatedRectangleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850705CC24890AB300852891 /* AnimatedRectangleButton.swift */; };
 		851EDF692470FF360058DB97 /* routeBetweenTwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 851EDF682470FF360058DB97 /* routeBetweenTwo.png */; };
 		8535DFD924732E81000B4E19 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8535DFD824732E81000B4E19 /* README.md */; };
@@ -66,6 +67,7 @@
 
 /* Begin PBXFileReference section */
 		41AF825B28CCE70C00107B4D /* SideMenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuBar.swift; sourceTree = "<group>"; };
+		41AF826028CD84C700107B4D /* animatedSideMenu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animatedSideMenu.gif; sourceTree = "<group>"; };
 		850705CC24890AB300852891 /* AnimatedRectangleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedRectangleButton.swift; sourceTree = "<group>"; };
 		851EDF682470FF360058DB97 /* routeBetweenTwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = routeBetweenTwo.png; sourceTree = "<group>"; };
 		8535DFD824732E81000B4E19 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -158,6 +160,7 @@
 		8535DFDA24732E97000B4E19 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				41AF826028CD84C700107B4D /* animatedSideMenu.gif */,
 				85D5035124925E4E00845796 /* searchBar.png */,
 				85E9FDDA248B14A9009905E9 /* buttonWithAnimation.gif */,
 				85E9FDDC248B14AA009905E9 /* transitionButton.gif */,
@@ -428,6 +431,7 @@
 				85D5035224925E4F00845796 /* searchBar.png in Resources */,
 				85E9FDDD248B14AA009905E9 /* buttonWithAnimation.gif in Resources */,
 				85E9FDDF248B14AA009905E9 /* transitionButton.gif in Resources */,
+				41AF826128CD84C700107B4D /* animatedSideMenu.gif in Resources */,
 				8535DFD924732E81000B4E19 /* README.md in Resources */,
 				858E9E842470287900945E3C /* mapkitUIKit.png in Resources */,
 				85B4CD232460273B0074F659 /* Assets.xcassets in Resources */,

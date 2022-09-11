@@ -1,6 +1,9 @@
 # SwiftUI_Templates
 Just a repository to store SwiftUI templates.
 
+# Animated Side Menubar
+<img src="SwiftUI_Templates/ReadMe/Images/animatedSideMenu.png" width=100>
+
 # List -> Detail
 <img src="SwiftUI_Templates/ReadMe/Images/listAndDetail.png" width=100>
 
