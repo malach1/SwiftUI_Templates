@@ -5,7 +5,7 @@ build it for personal learning,
 and place it hear as an archive.
 
 # Air Jordan sneaker viewer
-<img src="SwiftUI_Templates/ReadMe/Images/3DShoe.gif" width=300>
+<img src="SwiftUI_Templates/ReadMe/Images/3DShoe.gif" width=500>
 
 # Animated Side Menubar
 <img src="SwiftUI_Templates/ReadMe/Images/animatedSideMenu.gif" width=100>
